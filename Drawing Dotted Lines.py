@@ -10,14 +10,15 @@ import turtle
 t = turtle
 x = 5
 y = 7
+w = 30
 for i in range(y):
     for i in range(x):
         t.down()
         t.dot()
         t.up()
-        t.forward(30)
+        t.forward(w)
     t.up()
-    t.backward(150)
+    t.backward(x*w)
     t.right(90)
     t.forward(30)
     t.left(90)
